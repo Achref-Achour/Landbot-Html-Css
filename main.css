@@ -1,0 +1,107 @@
+body {
+    background-color: #281e65; 
+  font-family: 'ubuntu', sans-serif;
+}
+.chat-item {
+    background: #FFF;
+    border-radius: 24px;
+    overflow: hidden;
+    margin-bottom: 8px;
+    padding: 16px;
+    width: fit-content;
+}
+.button {
+    background: rgb(238, 0, 118);
+    border: 2px solid rgb(188, 0, 68);
+    cursor: pointer;
+    color: #FFF;
+    font-family: 'ubuntu', sans-serif;
+    font-size: 18px;
+    outline: none;
+    padding: 16px 32px;
+}
+h6{
+  color:white;
+}
+
+.privacy{
+  color:white;
+}
+main {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  color: rgb(69, 33, 98);
+}
+h1{
+  color:white;
+}
+.navbar{ 
+display: flex;
+justify-content: space-between;
+align-items: center;
+  padding: 0 150px;
+}
+.nav-item{
+  text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 19px;
+  color :white;
+  text-decoration:none;
+}
+
+.privacy-undelined{
+  text-decoration: underline;
+  color:white;
+}
+.login-item{
+      border: 1px solid #ef0075;
+    padding: 12px 30px;
+      border-radius: 100px;
+}
+.signup-item{
+border: 1px solid #ef0075;
+padding: 12px 30px;
+border-radius: 100px;
+background-color:#ef0075;
+}
+
+.chat-img{
+    position: absolute;
+    width: 50px;
+    margin-top: -57px;
+    margin-left: -59px;
+}
+.man-img{
+    max-height: 150px;
+    border-radius: 38px;
+}
+
+@-webkit-keyframes AnimationName {
+    0%{background-position:11% 0%}
+    50%{background-position:90% 100%}
+    100%{background-position:11% 0%}
+}
+@-moz-keyframes AnimationName {
+    0%{background-position:11% 0%}
+    50%{background-position:90% 100%}
+    100%{background-position:11% 0%}
+}
+@keyframes AnimationName { 
+    0%{background-position:11% 0%}
+    50%{background-position:90% 100%}
+    100%{background-position:11% 0%}
+}
+
+
+.background{
+background: linear-gradient(116deg, #ee7752, #e73c7e, #6b60b2, #452162);
+background-size: 800% 800%;
+-webkit-animation: AnimationName 10s ease infinite;
+-moz-animation: AnimationName 10s ease infinite;
+animation: AnimationName 10s ease infinite;
+margin:10px 3px;
+border-radius: 10px;
+
+}
